@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeautyTrips - Sua Viagem dos Sonhos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <img src="imagens/default.png" alt="BeautyTrips Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#promocoes">Promoções</a></li>
+                <li><a href="#destinos">Destinos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="overlay">
+            <h2>Descubra o Mundo com BeautyTrips!</h2>
+            <p>As melhores ofertas de viagens para você!</p>
+        </div>
+    </section>
+
+    <section id="promocoes" class="promotions">
+        <h2>Promoções Especiais</h2>
+        <div class="promo-grid">
+            <figure>
+                <img src="imagens/paris.jpg" alt="Promoção 1">
+                <figcaption>Pacote para Paris - 50% OFF</figcaption>
+            </figure>
+            <figure>
+                <img src="imagens/cruzeiro.jpeg" alt="Promoção 2">
+                <figcaption>Desconto em Cruzeiros pelo Caribe</figcaption>
+            </figure>
+            <figure>
+                <img src="imagens/newyork.jpeg" alt="Promoção 3">
+                <figcaption>Viagem para Nova York - Economize 30%</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section id="destinos" class="destinos">
+        <h2>Destinos Populares</h2>
+        <div class="destinos-grid">
+            <div class="destino">
+                <img src="imagens/paris.jpg" alt="Paris">
+                <p>Paris, França</p>
+            </div>
+            <div class="destino">
+                <img src="imagens/newyork.jpeg" alt="Nova York">
+                <p>Nova York, EUA</p>
+            </div>
+            <div class="destino">
+                <img src="imagens/Caribe.jpeg" alt="Caribe">
+                <p>Caribe</p>
+            </div>
+            <div class="destino">
+                <img src="imagens/Roma.jpeg" alt="Roma">
+                <p>Roma, Itália</p>
+            </div>
+            <div class="destino">
+                <img src="imagens/tokyo.jpeg" alt="Tóquio">
+                <p>Tóquio, Japão</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contato">
+        <h2>Entre em Contato</h2>
+        <p>Telefone: (64)99230-5321</p>
+        <p>Email: anderson.eloi@estudante.ifgoiano.edu.br</p>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 BeautyTrips/Anderson</p>
+    </footer>
+</body>
+</html>
